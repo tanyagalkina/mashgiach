@@ -6,6 +6,7 @@ import Data.Maybe ( Maybe )
 import Control.Plus ( empty )
 
 
+infixr 5 insertEntry as ++
 
 -- TODO: these are some of the groups, see which we want to add here
 data AdditiveGroup =  Colour | Preservative | Antioxidant | FlavourEnchancer | Sweetener | Emulsifier
